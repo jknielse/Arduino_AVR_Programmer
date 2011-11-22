@@ -16,8 +16,8 @@ patch <../serjtag-0.3/avrdude-serjtag/src/avrdude-5.3.1-serjtag.patch
 patch <../serjtag-0.3/avrdude-serjtag/src/avrdude-5.3.1-ft245r.patch
 patch <../serjtag-0.3/avrdude-serjtag/src/avrdude-5.3.1-baud.patch
 
-cp ../libftd2xx0.4.16_x86_64/ftd2xx.h ./
-cp ../libftd2xx0.4.16_x86_64/WinTypes.h
-cp ../libftd2xx0.4.16_x86_64/static_lib/libftd2xx.a.0.4.16 ./
+cp ../libftd2xx1.0.4/ftd2xx.h ./
+cp ../libftd2xx1.0.4/WinTypes.h
+cp ../libftd2xx1.0.4/static_lib/libftd2xx.a.0.4.16 ./
 
 ./configure
