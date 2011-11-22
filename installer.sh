@@ -20,13 +20,13 @@ cp ../libftd2xx0.4.16/ftd2xx.h ./
 cp ../libftd2xx0.4.16/WinTypes.h ./
 cp ../libftd2xx0.4.16/static_lib/libftd2xx.a.0.4.16 ./
 
-./configure
-
 rm Makefile
 mv ../Makefile ./
 
 rm config.status
 mv ../config.status ./
+
+./configure
 
 make
 
