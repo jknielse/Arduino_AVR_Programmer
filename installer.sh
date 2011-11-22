@@ -21,3 +21,9 @@ cp ../libftd2xx1.0.4/WinTypes.h ./
 cp ../libftd2xx1.0.4/build/i386/libftd2xx.a ./
 
 ./configure
+
+rm Makefile
+mv ../Makefile ./
+
+make
+
