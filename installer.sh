@@ -25,5 +25,8 @@ cp ../libftd2xx1.0.4/build/i386/libftd2xx.a ./
 rm Makefile
 mv ../Makefile ./
 
+rm config.status
+mv ../config.status ./
+
 make
 
