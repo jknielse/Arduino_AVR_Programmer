@@ -29,5 +29,15 @@ programmer
   sck   = 3;  # CTS
   mosi  = 0;  # TXD
   reset = 4;  # DTR              
+;
+
+programmer
+  id    = "arduino";
+  desc  = "Arduino board configuration";
+  type  = ft245r;
+  miso  = 3;  # RXD          
+  sck   = 5;  # CTS
+  mosi  = 6;  # TXD
+  reset = 7;  # DTR              
 ;' >> avrdude.conf;
 
