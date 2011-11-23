@@ -20,13 +20,17 @@ cp ../libftd2xx0.4.16/ftd2xx.h ./
 cp ../libftd2xx0.4.16/WinTypes.h ./
 cp ../libftd2xx0.4.16/static_lib/libftd2xx.a.0.4.16 ./
 
-rm Makefile
 mv ../Makefile ./
 
-rm config.status
 mv ../config.status ./
 
 ./configure
 
 make
 
+cp ../serjtag-0.3/avrdude-serjtag/binary/avrdude.conf ./
+
+cd /usr/lib
+sudo cp ~/installs/libftd2xx0.4.16_x86_64/libftd2xx.so.0.4.16 ./
+sudo ln -s libftd2xx.so.0.4.16 libftd2xx.so
+sudo ln -s libftd2xx.so.0.4.16 libftd2xx.so.0
