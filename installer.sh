@@ -30,7 +30,7 @@ make
 
 cp ../serjtag-0.3/avrdude-serjtag/binary/avrdude.conf ./
 
+sudo cp ../libftd2xx0.4.16/libftd2xx.so.0.4.16 /usr/lib/
 cd /usr/lib
-sudo cp ~/installs/libftd2xx0.4.16_x86_64/libftd2xx.so.0.4.16 ./
 sudo ln -s libftd2xx.so.0.4.16 libftd2xx.so
 sudo ln -s libftd2xx.so.0.4.16 libftd2xx.so.0
