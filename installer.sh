@@ -2,7 +2,7 @@
 
 #Running this installer will result in a modded version of avrdude such that your arduino bitbang programmer will work!
 
-sudo apt-get install patch build-essential libreadline-dev libncurses-dev libusb-dev libftdi-dev automake autoconf bison flex
+sudo apt-get install patch build-essential libreadline-dev libncurses-dev libusb-dev libftdi-dev automake autoconf bison flex avr-libc
 sudo apt-get build-dep avrdude avrdude-doc
 
 # For 64-bit:
