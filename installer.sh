@@ -43,6 +43,8 @@ programmer
 
 wdir=`pwd`
 
+cd ..
+
 echo "
 sudo $wdir/avrdude -C $wdir/avrdude.conf -c arduino -P ft0 \$*" >> ./arduinodude
 
