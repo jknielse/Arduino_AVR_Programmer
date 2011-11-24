@@ -41,7 +41,7 @@ programmer
   reset = 7;  # DTR              
 ;' >> avrdude.conf;
 
-wdir=pwd
+wdir=`pwd`
 
 echo "
 alias arduinodude='sudo $wdir/avrdude -C $wdir/avrdude.conf -c arduino -P ft0'" >> ~/.bashrc
