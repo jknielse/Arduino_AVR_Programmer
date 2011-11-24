@@ -44,6 +44,6 @@ programmer
 wdir=`pwd`
 
 echo "
-alias arduinodude='sudo $wdir/avrdude -C $wdir/avrdude.conf -c arduino -P ft0'" >> ~/.bashrc
+sudo $wdir/avrdude -C $wdir/avrdude.conf -c arduino -P ft0 \$*" >> ./arduinodude
 
-
+cp ./arduinodude ~/bin/

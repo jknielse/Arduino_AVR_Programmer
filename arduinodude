@@ -1,0 +1,4 @@
+#!/bin/bash
+#This script simply makes it easier to call your arduino uploader. Stick it in ~/bin or something and add
+#it to your path variable
+
